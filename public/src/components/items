@@ -1,0 +1,41 @@
+import React from 'react';
+
+const Items = () => {
+  return (
+    <section className="items">
+      <h2>Itens</h2>
+      <div className="item">
+        <img src="https://via.placeholder.com/80" alt="Vestido Midi Rosa" />
+        <div>
+          <p>Vestido Midi Rosa</p>
+          <p>Tamanho: 44</p>
+          <p>Cor: Rosa</p>
+          <p>SKU: 914456881</p>
+          <p>Qtd: 1</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="https://via.placeholder.com/80" alt="Camisa feminina gola alta branca" />
+        <div>
+          <p>Camisa feminina gola alta branca</p>
+          <p>Tamanho: M</p>
+          <p>Cor: Branca</p>
+          <p>SKU: 914456881</p>
+          <p>Qtd: 2</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="https://via.placeholder.com/80" alt="Saia azul estampada" />
+        <div>
+          <p>Saia azul estampada</p>
+          <p>Tamanho: 38</p>
+          <p>Cor: Azul</p>
+          <p>SKU: 914456881</p>
+          <p>Qtd: 1</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Items;
