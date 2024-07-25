@@ -1,0 +1,34 @@
+import React from 'react';
+
+const Details = () => {
+  return (
+    <>
+      <div className="section">
+        <h2>Dados da compra</h2>
+        <p>Alan Ricardo do Santos</p>
+        <p>alanricardo@gmail.com</p>
+        <p>(11) 995526345</p>
+        <p>Pedido criado: 05/07/2024 - 18:07</p>
+      </div>
+      <div className="section">
+        <h2>Anexos</h2>
+        <ul>
+          <li><a href="#">Referência.pdf</a></li>
+          <li><a href="#">Logo vetorizada.png</a></li>
+          <li><a href="#">Mockup.pdf</a></li>
+          <li><a href="#">Alterações.jpg</a></li>
+        </ul>
+      </div>
+      <div className="section">
+        <h2>Dados da Entrega</h2>
+        <p>Enviado: 15:03 - 12/07/2024</p>
+        <p>Destinatário: Rua Prefeito José Duarte, Nº 71. 06578-105, Cajamar, SP.</p>
+        <p>Remetente: Rua Professor Lucas Rangel, Nº 15. 06528-180, Cajamar, SP.</p>
+        <p>Previsão de Entrega: 28/07/2024</p>
+        <p>Enviado pelo Correios <código de rastreio></p>
+      </div>
+    </>
+  );
+}
+
+export default Details;
