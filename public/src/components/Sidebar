@@ -1,0 +1,16 @@
+import React from 'react';
+
+const Sidebar = () => {
+  return (
+    <nav className="sidebar">
+      <ul>
+        <li><a href="#"><i className="fas fa-home"></i></a></li>
+        <li><a href="#"><i className="fas fa-comments"></i></a></li>
+        <li><a href="#"><i className="fas fa-list"></i></a></li>
+        <li><a href="#"><i className="fas fa-chart-line"></i></a></li>
+      </ul>
+    </nav>
+  );
+}
+
+export default Sidebar;
